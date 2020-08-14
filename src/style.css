@@ -1,0 +1,119 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.top-bar-menu {
+    height: 52px;
+}
+.logo-left {
+    max-width: 180px;
+    width: 100%;
+    background: #0ebac5;
+    min-height: 52px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.left-menu{
+    max-width: 180px;
+    width: 100%;
+    height: 100%;
+    background: #2e3c56;
+    position: fixed;
+    left: 0;
+    top: 52px;
+}
+.menu-list li a{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: #6c7688;
+    padding: 16px 13px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 52px;
+    white-space: nowrap;
+    height: 52px;
+}
+.menu-list>li.active>a,
+.menu-list>li:hover>a,
+.menu-list>li>ul>li.active>a{
+    background: #232e42;
+    color: #fff;
+
+}
+.dashboard-title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    color: #232425; 
+}
+.dashboard-subtitle {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #9b9b9b;
+    display: block;
+}
+.overview-list li span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    color: #7b7c7c;
+    opacity: .6;
+}
+.overview-list li{
+    display: block;
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: #232425;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+.overview-list>li:after {
+    height: 1px;
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    background: #7b7c7c;
+    opacity: .2;
+    width: 60px;
+    left: 30px;
+}
+.overview-list>li.automation:before {
+    color: #0ebac5;
+}
+.overview-list>li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    left: 4px;
+    top: 11px;
+    font-size: 11px;
+    font-weight: 900;
+}
+.consumed-time>li {
+    display: block;
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: #232425;
+    padding-left: 64px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.consumed-time>li>span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    color: #7b7c7c;
+    opacity: .6;
+}
